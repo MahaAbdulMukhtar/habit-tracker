@@ -1,5 +1,9 @@
 # How to run
 
+**Live demo:** https://MahaAbdulMukhtar.github.io/habit-tracker/
+
+**To run locally:**
+
 1. Install Node.js 18+.
 2. From the project root:
 

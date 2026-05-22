@@ -2,6 +2,8 @@
 
 A simple weekly habit tracker built with React and Vite.
 
+**Live demo:** https://MahaAbdulMukhtar.github.io/habit-tracker/
+
 ## Features
 
 - Add, rename, and delete habits
