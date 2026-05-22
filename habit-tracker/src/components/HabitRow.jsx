@@ -40,6 +40,13 @@ function HabitRow({ habit, completions, weekDays, onToggleCompletion, onDeleteHa
         ) : (
           <div className="habit-name-row">
             <span className="habit-name">{habit.name}</span>
+
+            {streak > 0 && (
+              <span className="streak-badge" aria-label={`${streak} day streak`}>
+                🔥 {streak}
+              </span>
+            )}
+
             <div className="habit-actions">
               <button
                 type="button"
@@ -59,13 +66,6 @@ function HabitRow({ habit, completions, weekDays, onToggleCompletion, onDeleteHa
               </button>
             </div>
           </div>
-        )}
-
-        
-        {streak > 0 && (
-          <span className="streak-badge" aria-label={`${streak} day streak`}>
-            🔥 {streak}
-          </span>
         )}
       </div>
 

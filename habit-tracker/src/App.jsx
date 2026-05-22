@@ -7,7 +7,6 @@ import EmptyState from './components/EmptyState.jsx'
 import { getWeekDays } from './utils/dateUtils.js'
 
 function App() {
-  // All state and ac
   const {
     habits,
     completions,
@@ -30,7 +29,7 @@ function App() {
       </header>
 
     <main className="app-main">
-        <HabitForm onSubmit={addHabit} />
+        <HabitForm onAdd={addHabit} />
 
         <WeekNav
           weekOffset={weekOffset}
